@@ -1,0 +1,165 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        
+body {
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+nav {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.fa-linkedin {
+    font-size: 40px;
+    color: #0a66c2;
+}
+
+form {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #191919;
+    margin-bottom: 8px;
+}
+
+.quote {
+    color: #666666;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0a66c2;
+    box-shadow: 0 0 0 2px rgba(10, 102, 194, 0.2);
+}
+
+.passForge {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.passForge a {
+    color: #0a66c2;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.passForge a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #004182;
+}
+
+.res {
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+.res a {
+    color: #0a66c2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.res a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+    color: #666666;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #dddddd;
+}
+
+.divider span {
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.join-option {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.join-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 24px;
+    border: 1px solid #0a66c2;
+    border-radius: 24px;
+    color: #0a66c2;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+.join-link:hover {
+    background-color: rgba(10, 102, 194, 0.1);
+}
